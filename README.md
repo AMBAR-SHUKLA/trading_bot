@@ -126,7 +126,7 @@ All commands follow the pattern `python -m bot <command> [options]`.
 python -m bot ping
 ```
 
-**Ping confirms the testnet is reachable:**
+**Ping confirms the testnet is reachable:**| Screenshort |
 
 ![Ping and help](docs/screenshots/04_ping_and_help.png)
 
@@ -137,7 +137,7 @@ python -m bot --help
 ```
 
 ![All CLI commands](docs/screenshots/05_help_commands.png)
-
+| Screenshort |
 ### Place a Market order
 
 ```bash
@@ -177,7 +177,7 @@ python -m bot place-order \
 python -m bot interactive
 ```
 
-The wizard prompts for every field with inline validation and shows the live market price before you confirm:
+The wizard prompts for every field with inline validation and shows the live market price before you confirm:| Screenshort |
 
 ![Interactive wizard](docs/screenshots/06_interactive_wizard.png)
 
