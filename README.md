@@ -83,8 +83,13 @@ pip install -r requirements.txt
 ```
 
 **Step 1 — Clone the repo and create a virtual environment:**
+Screenshort: 
+
+
 
 ![Clone and create venv](docs/screenshots/01_clone_setup.png)
+
+
 
 **Step 2 — Install all dependencies:**
 
