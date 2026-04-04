@@ -83,7 +83,7 @@ pip install -r requirements.txt
 ```
 
 **Step 1 — Clone the repo and create a virtual environment:**
-Screenshort: 
+| Screenshort: |
 
 
 
