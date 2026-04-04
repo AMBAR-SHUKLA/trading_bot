@@ -7,7 +7,7 @@ Uses a temporary database for each test via monkeypatching.
 from __future__ import annotations
 
 from datetime import datetime
-from pathlib import Path
+# from pathlib import Path
 
 import pytest
 
