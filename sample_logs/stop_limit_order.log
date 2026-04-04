@@ -1,0 +1,27 @@
+2026-04-05T10:35:47 | INFO     | bot.logging_config       | Logging initialised
+2026-04-05T10:35:47 | INFO     | bot.client               | BinanceClient initialised  base_url=https://testnet.binancefuture.com
+2026-04-05T10:35:47 | INFO     | bot.orders               | OrderManager ready
+2026-04-05T10:35:47 | INFO     | bot.orders               | Executing SELL STOP_LIMIT order  symbol=BTCUSDT  qty=0.01
+2026-04-05T10:35:47 | INFO     | bot.client               | Placing STOP_LIMIT order  symbol=BTCUSDT  side=SELL  qty=0.01  price=82000.0  stop=83000.0
+2026-04-05T10:35:47 | DEBUG    | bot.client               | → POST /fapi/v1/order  params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'STOP', 'timeInForce': 'GTC', 'quantity': 0.01, 'price': 82000.0, 'stopPrice': 83000.0, 'timestamp': 1743845747204}
+2026-04-05T10:35:48 | DEBUG    | bot.client               | ← POST /fapi/v1/order  status=200
+2026-04-05T10:35:48 | INFO     | bot.client               | STOP_LIMIT order placed  order_id=3275889  status=NEW
+2026-04-05T10:35:48 | INFO     | bot.orders               | Order persisted  db_row=3  order_id=3275889
+
+──────────────────────────────────────────────────────
+  ORDER CONFIRMATION
+──────────────────────────────────────────────────────
+  Order ID      : 3275889
+  Client Ord ID : x-Hzx7Q8c9d0e1f2
+  Symbol        : BTCUSDT
+  Side          : SELL
+  Type          : STOP_LIMIT
+  Status        : NEW
+  Quantity      : 0.01
+  Executed Qty  : 0.0
+  Avg Price     : 0.0
+  Limit Price   : 82000.0
+  Stop Price    : 83000.0
+──────────────────────────────────────────────────────
+
+RESULT: ✔ Order placed successfully  (ID=3275889)
