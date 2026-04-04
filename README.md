@@ -82,7 +82,7 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-**Step 1 — Clone the repo and create a virtual environment:**
+**Step 1 — Clone the repo and create a virtual environment:**| Screenshort |
 
 
 
@@ -90,10 +90,12 @@ pip install -r requirements.txt
 ![Clone and create venv](docs/screenshots/01_clone_setup.png)
 
 
-| Screenshort |
-**Step 2 — Install all dependencies:**
+
+**Step 2 — Install all dependencies:**| Screenshort |
 
 ![pip install requirements](docs/screenshots/02_pip_install.png)
+
+| Screenshort |
 
 ![Installation complete](docs/screenshots/03_install_complete.png)
 
