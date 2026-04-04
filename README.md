@@ -83,14 +83,14 @@ pip install -r requirements.txt
 ```
 
 **Step 1 — Clone the repo and create a virtual environment:**
-| Screenshort: |
+
 
 
 
 ![Clone and create venv](docs/screenshots/01_clone_setup.png)
 
 
-
+| Screenshort |
 **Step 2 — Install all dependencies:**
 
 ![pip install requirements](docs/screenshots/02_pip_install.png)
