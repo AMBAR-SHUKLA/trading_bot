@@ -6,25 +6,25 @@ A production-quality Python trading bot for **Binance USDT-M Futures Testnet** w
 
 ##  Feature Checklist
 
-| Category | Feature 
+| Category | Feature |
 |---|---|---|
-| **Core** | Market orders (BUY/SELL) ||
-| **Core** | Limit orders (BUY/SELL) ||
-| **Core** | CLI with all required arguments 
-| **Core** | Input validation + error messages 
-| **Core** | Structured logging to file 
-| **Core** | Modular package structure
-| **Core** | Exception handling (API/network/input) 
-| **Bonus 1** | Stop-Limit order type 
-| **Bonus 2** | Interactive wizard CLI 
-| **Bonus 3** | Streamlit web UI 
-| **Extra** | Order book snapshot 
-| **Extra** | Order history (SQLite) 
-| **Extra** | Account balance & positions
-| **Extra** | Risk controls (large order warnings) 
-| **Extra** | Retry / exponential back-off 
-| **Extra** | GitHub Actions CI/CD pipeline 
-| **Extra** | Full unit test suite (pytest) 
+| **Core** | Market orders (BUY/SELL) |
+| **Core** | Limit orders (BUY/SELL) |
+| **Core** | CLI with all required arguments |
+| **Core** | Input validation + error messages |
+| **Core** | Structured logging to file |
+| **Core** | Modular package structure|
+| **Core** | Exception handling (API/network/input) |
+| **Bonus 1** | Stop-Limit order type |
+| **Bonus 2** | Interactive wizard CLI |
+| **Bonus 3** | Streamlit web UI |
+| **Extra** | Order book snapshot |
+| **Extra** | Order history (SQLite) |
+| **Extra** | Account balance & positions|
+| **Extra** | Risk controls (large order warnings) |
+| **Extra** | Retry / exponential back-off |
+| **Extra** | GitHub Actions CI/CD pipeline |
+| **Extra** | Full unit test suite (pytest) |
 
 ---
 
