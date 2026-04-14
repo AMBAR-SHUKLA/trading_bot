@@ -6,29 +6,29 @@ A production-quality Python trading bot for **Binance USDT-M Futures Testnet** w
 
 ##  Feature Checklist
 
-| Category | Feature | Status |
+| Category | Feature 
 |---|---|---|
-| **Core** | Market orders (BUY/SELL) | ✅ Completed |
-| **Core** | Limit orders (BUY/SELL) | ✅ Completed |
-| **Core** | CLI with all required arguments | ✅ Completed |
-| **Core** | Input validation + error messages | ✅ Completed |
-| **Core** | Structured logging to file | ✅ Completed |
-| **Core** | Modular package structure | ✅ Completed |
-| **Core** | Exception handling (API/network/input) | ✅ Completed |
-| **Bonus 1** | Stop-Limit order type | ✅ Completed |
-| **Bonus 2** | Interactive wizard CLI | ✅ Completed |
-| **Bonus 3** | Streamlit web UI | ✅ Completed |
-| **Extra** | Order book snapshot | ✅ Completed |
-| **Extra** | Order history (SQLite) | ✅ Completed |
-| **Extra** | Account balance & positions | ✅ Completed |
-| **Extra** | Risk controls (large order warnings) | ✅ Completed |
-| **Extra** | Retry / exponential back-off | ✅ Completed |
-| **Extra** | GitHub Actions CI/CD pipeline | ✅ Completed |
-| **Extra** | Full unit test suite (pytest) | ✅ Completed |
+| **Core** | Market orders (BUY/SELL) 
+| **Core** | Limit orders (BUY/SELL) 
+| **Core** | CLI with all required arguments 
+| **Core** | Input validation + error messages 
+| **Core** | Structured logging to file 
+| **Core** | Modular package structure
+| **Core** | Exception handling (API/network/input) 
+| **Bonus 1** | Stop-Limit order type 
+| **Bonus 2** | Interactive wizard CLI 
+| **Bonus 3** | Streamlit web UI 
+| **Extra** | Order book snapshot 
+| **Extra** | Order history (SQLite) 
+| **Extra** | Account balance & positions
+| **Extra** | Risk controls (large order warnings) 
+| **Extra** | Retry / exponential back-off 
+| **Extra** | GitHub Actions CI/CD pipeline 
+| **Extra** | Full unit test suite (pytest) 
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 trading_bot/
@@ -62,7 +62,7 @@ trading_bot/
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Register for Binance Futures Testnet
 
@@ -116,7 +116,7 @@ BINANCE_API_SECRET=your_api_secret_here
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 All commands follow the pattern `python -m bot <command> [options]`.
 
@@ -215,7 +215,7 @@ python -m bot place-order --help
 
 ---
 
-## 🌐 Web UI (Bonus 3)
+##  Web UI (Bonus 3)
 
 ```bash
 streamlit run bot/ui.py
@@ -230,7 +230,7 @@ Opens at **http://localhost:8501** in your browser. Features:
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v
@@ -241,7 +241,7 @@ All tests use mocked HTTP — no real network calls, no testnet keys required.
 
 ---
 
-## 🌍 Environment Variables
+##  Environment Variables
 
 Copy `.env.example` to `.env` and configure:
 
@@ -260,7 +260,7 @@ Copy `.env.example` to `.env` and configure:
 
 ---
 
-## 📋 CLI Reference
+##  CLI Reference
 
 | Command | Description |
 |---|---|
@@ -286,7 +286,7 @@ Copy `.env.example` to `.env` and configure:
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 ```
 ╭─────────────────────────────────────────╮
@@ -320,7 +320,7 @@ Quantity: 0.01
 
 ---
 
-## 🔒 Security
+##  Security
 
 - API keys are loaded from environment variables only — never hard-coded.
 - Log files never contain secrets or signatures.
@@ -330,7 +330,7 @@ Quantity: 0.01
 
 ---
 
-## 📝 Assumptions
+##  Assumptions
 
 - All trading targets the **Binance USDT-M Futures Testnet** — no real funds are used.
 - Stop-Limit orders use Binance's `STOP` type on the futures API (`stopPrice` + `price`).
@@ -339,7 +339,7 @@ Quantity: 0.01
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User
@@ -362,7 +362,7 @@ Each layer has a single responsibility. The CLI and UI both share the same `orde
 
 ---
 
-## 🤝 Evaluation Criteria Coverage
+##  Evaluation Criteria Coverage
 
 | Criterion | How it's met |
 |---|---|
@@ -374,7 +374,7 @@ Each layer has a single responsibility. The CLI and UI both share the same `orde
 
 ---
 
-## ⚙️ CI/CD
+##  CI/CD
 
 GitHub Actions runs on every push to `main`/`develop` and on pull requests:
 
@@ -384,6 +384,6 @@ GitHub Actions runs on every push to `main`/`develop` and on pull requests:
 
 ---
 
-## 📄 License
+##  License
 
 MIT
