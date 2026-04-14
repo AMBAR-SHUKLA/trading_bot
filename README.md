@@ -8,8 +8,8 @@ A production-quality Python trading bot for **Binance USDT-M Futures Testnet** w
 
 | Category | Feature 
 |---|---|---|
-| **Core** | Market orders (BUY/SELL) |
-| **Core** | Limit orders (BUY/SELL) |
+| **Core** | Market orders (BUY/SELL) ||
+| **Core** | Limit orders (BUY/SELL) ||
 | **Core** | CLI with all required arguments 
 | **Core** | Input validation + error messages 
 | **Core** | Structured logging to file 
